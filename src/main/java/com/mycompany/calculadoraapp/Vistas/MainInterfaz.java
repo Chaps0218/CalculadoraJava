@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.calculadoraapp.Vistas;
 
-/**
- *
- * @author owner
- */
+import com.mycompany.calculadoraapp.Vistas.Conexion.Conexion;
+
+
+
 public class MainInterfaz {
-    
+//    public static void main(String[] args) {
+//        Conexion calcu = new Conexion();
+//        
+//        int suma = calcu.Suma(1, 3);
+//        System.out.println("Suma: " + suma);
+//    }
 }
