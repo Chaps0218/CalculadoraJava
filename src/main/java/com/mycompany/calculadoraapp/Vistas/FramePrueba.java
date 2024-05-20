@@ -389,7 +389,7 @@ public class FramePrueba extends javax.swing.JFrame {
     }//GEN-LAST:event_tresActionPerformed
 
     private void cerrarPareActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cerrarPareActionPerformed
-        this.ecuacion += ")";
+        this.ecuacion += "";
         placeEcuacion.setText(this.ecuacion);
         placeEcuacion.requestFocus();
     }//GEN-LAST:event_cerrarPareActionPerformed
@@ -607,7 +607,7 @@ public class FramePrueba extends javax.swing.JFrame {
     }//GEN-LAST:event_limpiarActionPerformed
 
     private void abrirPareActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_abrirPareActionPerformed
-        this.ecuacion += "(";
+        this.ecuacion += "";
         placeEcuacion.setText(this.ecuacion);
         placeEcuacion.requestFocus();
     }//GEN-LAST:event_abrirPareActionPerformed
